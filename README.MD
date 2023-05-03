@@ -1,29 +1,46 @@
-# Node and Express Tutorial
 
-#### Node Course
+# Node and Express Practice
 
-[Node Tutorial and Projects Course](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?referralCode=E94792BEAE9ADD204BC7)
+This is my own personal practices on a tutorial made by [John Smilga](https://github.com/john-smilga). You can follow along with the tutorial from [Youtube](https://youtu.be/rltfdjcXjmk)
 
-#### Support
+## To Practice on your own
 
-Find the App Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
+Clone the project
 
-#### Contents
+```bash
+  git clone https://github.com/john-smilga/node-express-course.git
+```
 
-1. Node Tutorial
-2. Express Tutorial
-3. Task Manager (MongoDB, Mongoose)
-4. Store API
-5. JWT Basics
-6. Jobs API
+Go to the project directory
 
-#### Course Exclusive
+```bash
+  cd node-express-course
+```
 
-[Node Tutorial and Projects Course](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?referralCode=E94792BEAE9ADD204BC7)
+To go to each project `cd {projectName}` so for 01-node-tutorial the code would look like this. 
 
-7. File Upload (local and cloudinary)
-8. Send Email (nodemailer,ethereal and sendgrid )
-9. Stripe Payment
-10. E-Commerce API
-11. Auth Workflow (verify email, reset password)
-12. Sessions
+```bash
+  cd 01-node-tutorial
+```
+Starting from the 3rd project, each projectName has starter and final files so you might need to `cd starter` and then you need to install the dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+
+
+## Documentations
+
+- [NodeJS](https://nodejs.org/en/docs/guides/getting-started-guide)
+- [Express](https://expressjs.com/en/starter/installing.html)
+- [Mongoose](https://mongoosejs.com/docs/)
+- [JWT](https://jwt.io)
+
